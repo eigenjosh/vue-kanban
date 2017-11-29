@@ -1,5 +1,5 @@
 <template>
-  <div> 
+  <div class="container"> 
     Active Board: {{board}}
   </div>
 </template>

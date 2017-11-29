@@ -17,7 +17,9 @@ vue.use(vuex)
 
 var store = new vuex.Store({
   state: {
-    boards: [{ name: 'This is total rubbish' }],
+    boards: [{ name: 'This is total rubbish' },
+            { name: 'This one is slightly better' },
+            {name: 'This one isn\'t though'}],
     activeBoard: {},
     error: {}
   },
